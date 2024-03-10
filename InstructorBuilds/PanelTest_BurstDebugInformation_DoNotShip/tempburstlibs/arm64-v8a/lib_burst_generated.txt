@@ -10,6 +10,7 @@ Library: /Users/abhipats/Documents/mr-nurse-training/Temp/BurstOutput/tempburstl
 --target-framework=NetFramework
 --float-mode=Fast
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
@@ -55,6 +56,7 @@ Library: /Users/abhipats/Documents/mr-nurse-training/Temp/BurstOutput/tempburstl
 --float-precision=Standard
 --target-framework=NetFramework
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
