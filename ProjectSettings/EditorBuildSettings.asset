@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Example Scenes/PanelWithManipulators.unity
     guid: bafd0df297556dd44832193b22fca1ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InstructorScene.unity
     guid: 12ae1671c3a454e429c00c7d47e74192
+  - enabled: 1
+    path: Assets/Scenes/NewIntstructorScene.unity
+    guid: 1d703f4ec07064b88a5e8bd3b02f309c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ebb6998f53caf489d8aa418239ad5f25,
       type: 2}
