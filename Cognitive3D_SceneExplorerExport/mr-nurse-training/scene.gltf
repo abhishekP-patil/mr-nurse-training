@@ -1,0 +1,4820 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC3",
+      "max": [
+        0.18968334794044495,
+        0.057766538113355637,
+        0.058281414210796356
+      ],
+      "min": [
+        -0.022357583045959473,
+        -0.019255343824625015,
+        -0.087624505162239075
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC3",
+      "max": [
+        0.9990915060043335,
+        0.99992263317108154,
+        0.99988698959350586
+      ],
+      "min": [
+        -0.9626162052154541,
+        -0.998331606388092,
+        -0.995174765586853
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC4",
+      "max": [
+        0.99972254037857056,
+        0.9981045126914978,
+        0.88708615303039551,
+        -1.0
+      ],
+      "min": [
+        -0.92976194620132446,
+        -0.999315619468689,
+        -0.99980258941650391,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC2",
+      "max": [
+        0.99812352657318115,
+        0.99660587310791016
+      ],
+      "min": [
+        0.0020069140009582043,
+        0.01021420955657959
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 6942,
+      "type": "SCALAR",
+      "max": [
+        1359.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC3",
+      "max": [
+        0.012802282348275185,
+        0.012802283279597759,
+        0.05014602467417717
+      ],
+      "min": [
+        -0.012802282348275185,
+        -0.01280228141695261,
+        0.010146026499569416
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC3",
+      "max": [
+        0.9937250018119812,
+        0.993719220161438,
+        1.0
+      ],
+      "min": [
+        -0.993719220161438,
+        -0.993719220161438,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99995219707489014,
+        0.043525047600269318,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.043524984270334244,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 3672,
+      "type": "SCALAR",
+      "max": [
+        700.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        3.0616168005906746E-17
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -3.0616168005906746E-17
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC3",
+      "max": [
+        0.022357583045959473,
+        0.019255343824625015,
+        0.087624333798885345
+      ],
+      "min": [
+        -0.18968340754508972,
+        -0.057766590267419815,
+        -0.058281391859054565
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC3",
+      "max": [
+        0.9626162052154541,
+        0.998331606388092,
+        0.995174765586853
+      ],
+      "min": [
+        -0.99909096956253052,
+        -0.99992311000823975,
+        -0.99988698959350586
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC4",
+      "max": [
+        0.92976194620132446,
+        0.99931597709655762,
+        0.99980241060256958,
+        1.0
+      ],
+      "min": [
+        -0.99972301721572876,
+        -0.99810469150543213,
+        -0.88708615303039551,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 1360,
+      "type": "VEC2",
+      "max": [
+        0.99812352657318115,
+        0.99660587310791016
+      ],
+      "min": [
+        0.0020069140009582043,
+        0.01021420955657959
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 6942,
+      "type": "SCALAR",
+      "max": [
+        1359.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC3",
+      "max": [
+        0.012802282348275185,
+        0.012802283279597759,
+        0.05014602467417717
+      ],
+      "min": [
+        -0.012802282348275185,
+        -0.01280228141695261,
+        0.010146026499569416
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC3",
+      "max": [
+        0.9937250018119812,
+        0.993719220161438,
+        1.0
+      ],
+      "min": [
+        -0.993719220161438,
+        -0.993719220161438,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99995219707489014,
+        0.043525047600269318,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.043524984270334244,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 701,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5123,
+      "count": 3672,
+      "type": "SCALAR",
+      "max": [
+        700.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        390.0,
+        390.0,
+        0.0
+      ],
+      "min": [
+        -390.0,
+        -390.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 236,
+      "type": "VEC3",
+      "max": [
+        0.27345883846282959,
+        0.019288219511508942,
+        0.27345883846282959
+      ],
+      "min": [
+        -0.27345883846282959,
+        0.0,
+        -0.27345883846282959
+      ]
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 236,
+      "type": "VEC3",
+      "max": [
+        0.9999995231628418,
+        0.99917054176330566,
+        0.9999995231628418
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.99998652935028076,
+        -0.9999995231628418
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 236,
+      "type": "VEC4",
+      "max": [
+        0.99999332427978516,
+        0.9998052716255188,
+        0.99999332427978516,
+        1.0
+      ],
+      "min": [
+        -0.99999332427978516,
+        -0.99999094009399414,
+        -0.99999332427978516,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 236,
+      "type": "VEC2",
+      "max": [
+        0.99199944734573364,
+        0.99199539422988892
+      ],
+      "min": [
+        0.0080045117065310478,
+        0.023103713989257813
+      ]
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5121,
+      "count": 798,
+      "type": "SCALAR",
+      "max": [
+        235.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        327.5,
+        327.5,
+        0.0
+      ],
+      "min": [
+        -327.5,
+        -327.5,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 254284
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 16320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16320,
+      "byteLength": 16320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32640,
+      "byteLength": 21760
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54400,
+      "byteLength": 10880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65280,
+      "byteLength": 13884
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79164,
+      "byteLength": 8412
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87576,
+      "byteLength": 8412
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 95988,
+      "byteLength": 11216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 107204,
+      "byteLength": 5608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 112812,
+      "byteLength": 7344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120156,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120204,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120252,
+      "byteLength": 64
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120316,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120348,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120354,
+      "byteLength": 16320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 136674,
+      "byteLength": 16320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 152994,
+      "byteLength": 21760
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 174754,
+      "byteLength": 10880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 185634,
+      "byteLength": 13884
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 199518,
+      "byteLength": 8412
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 207930,
+      "byteLength": 8412
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 216342,
+      "byteLength": 11216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 227558,
+      "byteLength": 5608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 233166,
+      "byteLength": 7344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 240510,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 240558,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 240606,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 240638,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 240644,
+      "byteLength": 2832
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 243476,
+      "byteLength": 2832
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 246308,
+      "byteLength": 3776
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 250084,
+      "byteLength": 1888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 251972,
+      "byteLength": 798
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252770,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252818,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252866,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252898,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252904,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 253192,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 253480,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 253864,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 254056,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 254248,
+      "byteLength": 36
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 2.1416430473327637,
+        "yfov": 1.5707963705062866,
+        "zfar": 1000.5303344726563,
+        "znear": 0.10000000149011612
+      },
+      "type": "perspective",
+      "name": "CenterEyeAnchor"
+    }
+  ],
+  "images": [
+    {
+      "uri": "371857150CanvasMain.png",
+      "name": "Canvas"
+    },
+    {
+      "uri": "1110705868MapFrame_AlbedoRoughnessMain.png",
+      "name": "MapFrame_AlbedoRoughness"
+    },
+    {
+      "uri": "371857150CanvasMain.png",
+      "name": "Canvas"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "OculusHand"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "OculusHandPinchMaterial"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "OculusHandCursor"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "MapFrameMat"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Default-Material"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.117924489,
+          0.1940315,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "BlueUnlit"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          1.0,
+          0.118306614,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "GreenUnlit"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.607843161
+        ],
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "RoundedBoxUnlit"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "l_handMeshNode"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2
+        }
+      ],
+      "name": "OculusCursor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ],
+      "name": "r_handMeshNode"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 1
+        }
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2
+        }
+      ],
+      "name": "OculusCursor"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27
+          },
+          "indices": 28,
+          "material": 3
+        }
+      ],
+      "name": "Canvas"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TANGENT": 31,
+            "TEXCOORD_0": 32
+          },
+          "indices": 33,
+          "material": 4
+        }
+      ],
+      "name": "Frame"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 5
+        }
+      ],
+      "name": "Backing"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 34,
+            "NORMAL": 35,
+            "TEXCOORD_0": 36
+          },
+          "indices": 37,
+          "material": 6
+        }
+      ],
+      "name": "Canvas"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 38,
+            "NORMAL": 39,
+            "TANGENT": 40,
+            "TEXCOORD_0": 41,
+            "TEXCOORD_1": 42
+          },
+          "indices": 43,
+          "material": 7
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 38,
+            "NORMAL": 39,
+            "TANGENT": 40,
+            "TEXCOORD_0": 41,
+            "TEXCOORD_1": 42
+          },
+          "indices": 43,
+          "material": 8
+        }
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 9
+        }
+      ],
+      "name": "ButtonVisual"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        8
+      ],
+      "name": "[BuildingBlock] Camera Rig"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "name": "TrackingSpace"
+    },
+    {
+      "name": "LeftEyeAnchor"
+    },
+    {
+      "camera": 0,
+      "name": "CenterEyeAnchor"
+    },
+    {
+      "name": "RightEyeAnchor"
+    },
+    {
+      "name": "TrackerAnchor"
+    },
+    {
+      "name": "LeftHandAnchorDetached"
+    },
+    {
+      "name": "RightHandAnchorDetached"
+    },
+    {
+      "children": [
+        9,
+        11
+      ],
+      "name": "[BuildingBlock] Interaction"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "OVRHmd"
+    },
+    {
+      "name": "OVRHmdDataSource"
+    },
+    {
+      "children": [
+        12,
+        127
+      ],
+      "name": "[SBB] Hand Tracking"
+    },
+    {
+      "children": [
+        13,
+        14,
+        15,
+        26,
+        27,
+        110,
+        122
+      ],
+      "name": "LeftHand"
+    },
+    {
+      "name": "HandDataLeft"
+    },
+    {
+      "name": "HandFeaturesLeft"
+    },
+    {
+      "children": [
+        16
+      ],
+      "name": "HandInteractorsLeft"
+    },
+    {
+      "children": [
+        17,
+        18,
+        19,
+        24,
+        25
+      ],
+      "name": "HandGrabInteractor"
+    },
+    {
+      "name": "HandGrabAPI"
+    },
+    {
+      "name": "HandWristPoint"
+    },
+    {
+      "children": [
+        20,
+        22
+      ],
+      "name": "Rigidbody"
+    },
+    {
+      "children": [
+        21
+      ],
+      "name": "GripPoint"
+    },
+    {
+      "name": "Collider"
+    },
+    {
+      "children": [
+        23
+      ],
+      "name": "PinchPoint"
+    },
+    {
+      "name": "Collider"
+    },
+    {
+      "name": "PinchArea"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "name": "Visuals"
+    },
+    {
+      "name": "OVRHandDataSource"
+    },
+    {
+      "children": [
+        28
+      ],
+      "name": "[BuildingBlock] Synthetic Left Hand"
+    },
+    {
+      "children": [
+        29
+      ],
+      "name": "OVRLeftHandVisual"
+    },
+    {
+      "children": [
+        30,
+        108
+      ],
+      "name": "OculusHand_L"
+    },
+    {
+      "children": [
+        31,
+        32,
+        41,
+        51,
+        61,
+        70,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "name": "b_l_wrist"
+    },
+    {
+      "name": "b_l_forearm_stub"
+    },
+    {
+      "children": [
+        33,
+        40
+      ],
+      "rotation": [
+        0.03068309,
+        -0.0188555885,
+        0.0432814434,
+        0.9984136
+      ],
+      "translation": [
+        0.09599624,
+        0.00731645431,
+        -0.02355068
+      ],
+      "name": "b_l_index1"
+    },
+    {
+      "children": [
+        34,
+        39
+      ],
+      "rotation": [
+        -0.025852412,
+        -0.00711605838,
+        0.00329294149,
+        0.999635041
+      ],
+      "translation": [
+        0.0379273,
+        -2.220446E-18,
+        -8.881784E-18
+      ],
+      "name": "b_l_index2"
+    },
+    {
+      "children": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "rotation": [
+        -0.016056,
+        -0.0271487255,
+        -0.07203398,
+        0.99690336
+      ],
+      "translation": [
+        0.024303643,
+        3.0531133E-18,
+        4.440892E-18
+      ],
+      "name": "b_l_index3"
+    },
+    {
+      "rotation": [
+        5.20417043E-18,
+        -1.38777878E-17,
+        1.79977561E-17,
+        1.0
+      ],
+      "translation": [
+        0.0115830358,
+        -6.661338E-18,
+        0.0
+      ],
+      "name": "b_l_index_null"
+    },
+    {
+      "translation": [
+        0.015230434,
+        0.00569925644,
+        8.346747E-05
+      ],
+      "name": "l_index_finger_pad_marker"
+    },
+    {
+      "translation": [
+        0.0223633666,
+        -0.00102507079,
+        0.0002956079
+      ],
+      "name": "l_index_finger_tip_marker"
+    },
+    {
+      "translation": [
+        0.0154044479,
+        -0.006164825,
+        0.0003091432
+      ],
+      "name": "l_index_fingernail_marker"
+    },
+    {
+      "rotation": [
+        1.79431066E-16,
+        -0.717565954,
+        0.023630999,
+        0.6960895
+      ],
+      "translation": [
+        0.024303643,
+        1.110223E-18,
+        4.440892E-18
+      ],
+      "name": "l_index_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        2.08843258E-15,
+        -0.7105201,
+        0.03675238,
+        0.70271647
+      ],
+      "translation": [
+        0.0379273,
+        2.220446E-18,
+        -4.440892E-18
+      ],
+      "name": "l_index_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        42,
+        49,
+        50
+      ],
+      "rotation": [
+        -0.009066327,
+        -0.05146559,
+        0.051835753,
+        0.997287452
+      ],
+      "translation": [
+        0.0956466049,
+        0.00254315464,
+        -0.00172590546
+      ],
+      "name": "b_l_middle1"
+    },
+    {
+      "children": [
+        43,
+        48
+      ],
+      "rotation": [
+        -0.0112282373,
+        -0.00437888,
+        -0.00197826419,
+        0.999925435
+      ],
+      "translation": [
+        0.04292699,
+        0.0,
+        0.0
+      ],
+      "name": "b_l_middle2"
+    },
+    {
+      "children": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "rotation": [
+        -0.0343195423,
+        -0.004611837,
+        -0.09300701,
+        0.9950631
+      ],
+      "translation": [
+        0.0275495835,
+        0.0,
+        -4.440892E-18
+      ],
+      "name": "b_l_middle3"
+    },
+    {
+      "rotation": [
+        2.08166817E-17,
+        1.38777878E-17,
+        1.73472348E-17,
+        1.0
+      ],
+      "translation": [
+        0.0122034745,
+        -6.661338E-18,
+        0.0
+      ],
+      "name": "b_l_middle_null"
+    },
+    {
+      "translation": [
+        0.01761396,
+        0.00628725346,
+        7.37521041E-05
+      ],
+      "name": "l_middle_finger_pad_marker"
+    },
+    {
+      "translation": [
+        0.02496492,
+        -0.00113729911,
+        0.000308652758
+      ],
+      "name": "l_middle_finger_tip_marker"
+    },
+    {
+      "translation": [
+        0.017000813,
+        -0.006589214,
+        0.000144214267
+      ],
+      "name": "l_middle_fingernail_marker"
+    },
+    {
+      "rotation": [
+        -1.03328696E-16,
+        -0.738151252,
+        0.0645921752,
+        0.671535969
+      ],
+      "translation": [
+        0.0275495835,
+        0.0,
+        -8.881784E-18
+      ],
+      "name": "l_middle_dip_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.0006809305,
+        -0.0110098487,
+        0.00303074229
+      ],
+      "name": "l_middle_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -3.699927E-16,
+        -0.7107332,
+        0.0159823243,
+        0.703280151
+      ],
+      "translation": [
+        0.04292699,
+        2.220446E-18,
+        2.220446E-18
+      ],
+      "name": "l_middle_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        52
+      ],
+      "rotation": [
+        -0.207035989,
+        -0.140342847,
+        0.0183118,
+        0.968041658
+      ],
+      "translation": [
+        0.0340735577,
+        0.009419835,
+        0.0229985733
+      ],
+      "name": "b_l_pinky0"
+    },
+    {
+      "children": [
+        53,
+        60
+      ],
+      "rotation": [
+        0.09111303,
+        0.00407135673,
+        0.02812922,
+        0.9954349
+      ],
+      "translation": [
+        0.04565054,
+        9.982332E-07,
+        -2.19402546E-06
+      ],
+      "name": "b_l_pinky1"
+    },
+    {
+      "children": [
+        54,
+        59
+      ],
+      "rotation": [
+        -0.03761665,
+        -0.0429376923,
+        -0.0132860467,
+        0.998280942
+      ],
+      "translation": [
+        0.030720409,
+        -3.330669E-18,
+        -8.881784E-18
+      ],
+      "name": "b_l_pinky2"
+    },
+    {
+      "children": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "rotation": [
+        0.000644760963,
+        0.04917067,
+        -0.024018826,
+        0.99850136
+      ],
+      "translation": [
+        0.0203113835,
+        6.661338E-18,
+        -8.881784E-18
+      ],
+      "name": "b_l_pinky3"
+    },
+    {
+      "rotation": [
+        -2.77555756E-17,
+        -1.38777878E-16,
+        -6.938894E-18,
+        1.0
+      ],
+      "translation": [
+        0.0119087752,
+        1.6653345E-18,
+        4.440892E-18
+      ],
+      "name": "b_l_pinky_null"
+    },
+    {
+      "translation": [
+        0.0171081964,
+        0.005134742,
+        0.0009990304
+      ],
+      "name": "l_pinky_finger_pad_marker"
+    },
+    {
+      "translation": [
+        0.0219223853,
+        -0.00121608528,
+        -0.000246481126
+      ],
+      "name": "l_pinky_finger_tip_marker"
+    },
+    {
+      "translation": [
+        0.015289234,
+        -0.00562854437,
+        -0.0005408356
+      ],
+      "name": "l_pinky_fingernail_marker"
+    },
+    {
+      "rotation": [
+        5.82848665E-18,
+        -0.6882537,
+        -0.00100320566,
+        0.72546947
+      ],
+      "translation": [
+        0.0203113835,
+        2.220446E-18,
+        3.330669E-18
+      ],
+      "name": "l_pinky_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        1.31471928E-16,
+        -0.7492193,
+        0.0585215,
+        0.6597315
+      ],
+      "translation": [
+        0.030720409,
+        -3.330669E-18,
+        -6.661338E-18
+      ],
+      "name": "l_pinky_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        62,
+        69
+      ],
+      "rotation": [
+        -0.0531593673,
+        -0.12310341,
+        0.0498134941,
+        0.9897163
+      ],
+      "translation": [
+        0.08869379,
+        0.006529307,
+        0.0174652413
+      ],
+      "name": "b_l_ring1"
+    },
+    {
+      "children": [
+        63,
+        68
+      ],
+      "rotation": [
+        -0.0336325243,
+        -0.00278984942,
+        0.005676029,
+        0.999414265
+      ],
+      "translation": [
+        0.0389961,
+        7.771561E-18,
+        -8.881784E-18
+      ],
+      "name": "b_l_ring2"
+    },
+    {
+      "children": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "rotation": [
+        -0.00347745442,
+        0.029179465,
+        -0.02502854,
+        0.999254763
+      ],
+      "translation": [
+        0.0265733972,
+        -4.440892E-18,
+        0.0
+      ],
+      "name": "b_l_ring3"
+    },
+    {
+      "rotation": [
+        4.16333634E-17,
+        5.551115E-17,
+        -3.469447E-17,
+        1.0
+      ],
+      "translation": [
+        0.01193941,
+        1.110223E-18,
+        6.661338E-18
+      ],
+      "name": "b_l_ring_null"
+    },
+    {
+      "translation": [
+        0.0181253441,
+        0.005780465,
+        0.0003378707
+      ],
+      "name": "l_ring_finger_pad_marker"
+    },
+    {
+      "translation": [
+        0.0243261289,
+        -0.00160817127,
+        0.0002579043
+      ],
+      "name": "l_ring_finger_tip_marker"
+    },
+    {
+      "translation": [
+        0.0161405038,
+        -0.00653572055,
+        -0.0003754784
+      ],
+      "name": "l_ring_fingernail_marker"
+    },
+    {
+      "rotation": [
+        1.605726E-15,
+        -0.713260233,
+        0.006631614,
+        0.700867951
+      ],
+      "translation": [
+        0.0265733972,
+        -4.440892E-18,
+        -8.881784E-18
+      ],
+      "name": "l_ring_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        2.38911043E-16,
+        -0.715411842,
+        0.0480023772,
+        0.6970521
+      ],
+      "translation": [
+        0.0389961,
+        4.440892E-18,
+        1.110223E-18
+      ],
+      "name": "l_ring_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        71
+      ],
+      "rotation": [
+        0.375386924,
+        0.424584061,
+        -0.007778856,
+        0.8238644
+      ],
+      "translation": [
+        0.0200693011,
+        0.0115540987,
+        -0.0104965195
+      ],
+      "name": "b_l_thumb0"
+    },
+    {
+      "children": [
+        72,
+        79,
+        80,
+        81
+      ],
+      "rotation": [
+        0.260230243,
+        0.0243309122,
+        0.125678018,
+        0.957023144
+      ],
+      "translation": [
+        0.024852559,
+        -8.881784E-18,
+        1.05471186E-17
+      ],
+      "name": "b_l_thumb1"
+    },
+    {
+      "children": [
+        73,
+        78
+      ],
+      "rotation": [
+        -0.08270365,
+        -0.07696168,
+        -0.0840622261,
+        0.990035653
+      ],
+      "translation": [
+        0.03251291,
+        1.7763568E-17,
+        -2.6090241E-17
+      ],
+      "name": "b_l_thumb2"
+    },
+    {
+      "children": [
+        74,
+        75,
+        76,
+        77
+      ],
+      "rotation": [
+        0.08350578,
+        0.065015696,
+        -0.0582740679,
+        0.9926751
+      ],
+      "translation": [
+        0.03379309,
+        -1.3322676E-17,
+        3.4416914E-17
+      ],
+      "name": "b_l_thumb3"
+    },
+    {
+      "rotation": [
+        -1.38777878E-17,
+        1.83880688E-16,
+        2.49800181E-16,
+        1.0
+      ],
+      "translation": [
+        0.0148633681,
+        0.0,
+        -8.881784E-18
+      ],
+      "name": "b_l_thumb_null"
+    },
+    {
+      "translation": [
+        0.01354,
+        0.00952,
+        0.00024
+      ],
+      "name": "l_thumb_finger_pad_marker"
+    },
+    {
+      "translation": [
+        0.0245907661,
+        -0.0010269715,
+        0.0006703722
+      ],
+      "name": "l_thumb_finger_tip_marker"
+    },
+    {
+      "translation": [
+        0.0152082881,
+        -0.00574790267,
+        -0.000190242965
+      ],
+      "name": "l_thumb_fingernail_marker"
+    },
+    {
+      "rotation": [
+        -1.15651086E-16,
+        -0.684581935,
+        -0.113900147,
+        0.7199822
+      ],
+      "translation": [
+        0.03379309,
+        -2.55351284E-17,
+        2.6645352E-17
+      ],
+      "name": "l_thumb_ip_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.00929482,
+        -0.0120759131,
+        0.00157798734
+      ],
+      "name": "l_thumb_knuckle_marker"
+    },
+    {
+      "rotation": [
+        3.76856976E-16,
+        -0.7218523,
+        0.12169107,
+        0.6812639
+      ],
+      "translation": [
+        0.03251291,
+        5.55111479E-18,
+        -1.7763568E-17
+      ],
+      "name": "l_thumb_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.0028762673,
+        0.0239473656,
+        -0.0147180269
+      ],
+      "name": "l_thumb_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        0.09611815,
+        -0.005218656,
+        -0.021928234
+      ],
+      "name": "l_index_knuckle_marker"
+    },
+    {
+      "rotation": [
+        1.5147017E-17,
+        -0.04358452,
+        0.725202739,
+        0.687154651
+      ],
+      "translation": [
+        0.09599624,
+        0.00731645431,
+        -0.02355068
+      ],
+      "name": "l_index_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        -4.670291E-17,
+        -0.707193434,
+        -0.04265578,
+        0.7057322
+      ],
+      "translation": [
+        0.09599624,
+        0.00731645431,
+        -0.02355068
+      ],
+      "name": "l_index_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.0311257262,
+        -0.00263202959,
+        -0.02514459
+      ],
+      "name": "l_index_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        0.0238817427,
+        0.0334958434,
+        -0.0121148722
+      ],
+      "name": "l_index_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        0.100161538,
+        0.0238383,
+        -0.0242547058
+      ],
+      "name": "l_index_palm_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -5.01631275E-18,
+        0.0127513781,
+        0.7221367,
+        0.691632867
+      ],
+      "translation": [
+        0.0956466049,
+        0.00254315464,
+        -0.00172590546
+      ],
+      "name": "l_middle_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        4.96660469E-16,
+        -0.7409508,
+        0.00991445,
+        0.6714862
+      ],
+      "translation": [
+        0.0956466049,
+        0.00254315464,
+        -0.00172590546
+      ],
+      "name": "l_middle_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.0322586969,
+        -0.01390163,
+        -0.000857234234
+      ],
+      "name": "l_middle_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        0.0238817427,
+        0.0334958434,
+        -0.0121148722
+      ],
+      "name": "l_middle_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        0.0987255,
+        0.020649666,
+        -0.0006196165
+      ],
+      "name": "l_middle_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        0.08176033,
+        0.0205398444,
+        -0.004241872
+      ],
+      "name": "l_palm_center_marker"
+    },
+    {
+      "translation": [
+        0.07580273,
+        0.004132048,
+        0.03734504
+      ],
+      "name": "l_pinky_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -3.01168E-17,
+        0.175824925,
+        0.700949669,
+        0.691198349
+      ],
+      "translation": [
+        0.07789584,
+        0.0136911822,
+        0.0350540653
+      ],
+      "name": "l_pinky_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        2.365652E-17,
+        -0.788309634,
+        0.185539916,
+        0.5866369
+      ],
+      "translation": [
+        0.07789584,
+        0.0136911822,
+        0.0350540653
+      ],
+      "name": "l_pinky_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.030887451,
+        -0.0105694793,
+        0.0153133143
+      ],
+      "name": "l_pinky_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        0.0245591179,
+        0.02867835,
+        0.018615067
+      ],
+      "name": "l_pinky_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        0.0767098144,
+        0.02712936,
+        0.0380266942
+      ],
+      "name": "l_pinky_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        0.08772871,
+        -0.003426938,
+        0.0206375718
+      ],
+      "name": "l_ring_knuckle_marker"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0771651641,
+        0.7174004,
+        0.6923744
+      ],
+      "translation": [
+        0.08869379,
+        0.006529307,
+        0.0174652413
+      ],
+      "name": "l_ring_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        2.815203E-17,
+        -0.7838948,
+        0.0762138,
+        0.6161985
+      ],
+      "translation": [
+        0.08869379,
+        0.006529307,
+        0.0174652413
+      ],
+      "name": "l_ring_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.031793382,
+        -0.0127200754,
+        0.009874243
+      ],
+      "name": "l_ring_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        0.0250673071,
+        0.02954595,
+        0.0104015088
+      ],
+      "name": "l_ring_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        0.090111874,
+        0.0234416239,
+        0.0188233014
+      ],
+      "name": "l_ring_palm_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -9.947095E-17,
+        -0.8370959,
+        0.2633566,
+        -0.479493231
+      ],
+      "translation": [
+        0.03595843,
+        0.0191577189,
+        -0.0280284975
+      ],
+      "name": "l_thumb_cmc_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        1.0748633E-17,
+        -0.04351636,
+        -0.245809257,
+        0.968340933
+      ],
+      "translation": [
+        0.0200693011,
+        0.0115540987,
+        -0.0104965195
+      ],
+      "name": "l_thumb_cmc_fe_axis_marker"
+    },
+    {
+      "children": [
+        109
+      ],
+      "name": "l_handMeshNode"
+    },
+    {
+      "mesh": 0,
+      "name": "l_handMeshNode"
+    },
+    {
+      "children": [
+        111,
+        112,
+        114
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "name": "[BuildingBlock] Left Ray"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.03835082
+      ],
+      "name": "Selector"
+    },
+    {
+      "children": [
+        113
+      ],
+      "name": "Model"
+    },
+    {
+      "name": "PointerPose"
+    },
+    {
+      "children": [
+        115,
+        118
+      ],
+      "name": "Visuals"
+    },
+    {
+      "children": [
+        116
+      ],
+      "name": "RaycasterPinchVisual"
+    },
+    {
+      "children": [
+        117
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        3.333333,
+        3.333333,
+        3.333333
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "children": [
+        119
+      ],
+      "name": "RaycasterCursorVisual"
+    },
+    {
+      "children": [
+        120,
+        121
+      ],
+      "name": "CursorObject"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.00100004673
+      ],
+      "name": "OculusCursor"
+    },
+    {
+      "scale": [
+        0.016,
+        0.016,
+        1.0
+      ],
+      "name": "SelectionCircle"
+    },
+    {
+      "children": [
+        123,
+        124
+      ],
+      "name": "[BuildingBlock] Left Poke"
+    },
+    {
+      "name": "HandIndexFingertip"
+    },
+    {
+      "children": [
+        125,
+        126
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "name": "Visuals"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        -0.1
+      ],
+      "name": "HandPokeLimiter"
+    },
+    {
+      "name": "HandPokeOvershootGlow"
+    },
+    {
+      "children": [
+        128,
+        129,
+        130,
+        141,
+        142,
+        225,
+        237
+      ],
+      "name": "RightHand"
+    },
+    {
+      "name": "HandDataRight"
+    },
+    {
+      "name": "HandFeaturesRight"
+    },
+    {
+      "children": [
+        131
+      ],
+      "name": "HandInteractorsRight"
+    },
+    {
+      "children": [
+        132,
+        133,
+        134,
+        139,
+        140
+      ],
+      "name": "HandGrabInteractor"
+    },
+    {
+      "name": "HandGrabAPI"
+    },
+    {
+      "name": "HandWristPoint"
+    },
+    {
+      "children": [
+        135,
+        137
+      ],
+      "name": "Rigidbody"
+    },
+    {
+      "children": [
+        136
+      ],
+      "name": "GripPoint"
+    },
+    {
+      "name": "Collider"
+    },
+    {
+      "children": [
+        138
+      ],
+      "name": "PinchPoint"
+    },
+    {
+      "name": "Collider"
+    },
+    {
+      "name": "PinchArea"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "name": "Visuals"
+    },
+    {
+      "name": "OVRHandDataSource"
+    },
+    {
+      "children": [
+        143
+      ],
+      "name": "[BuildingBlock] Synthetic Right Hand"
+    },
+    {
+      "children": [
+        144
+      ],
+      "name": "OVRRightHandVisual"
+    },
+    {
+      "children": [
+        145,
+        223
+      ],
+      "name": "OculusHand_R"
+    },
+    {
+      "children": [
+        146,
+        147,
+        156,
+        166,
+        176,
+        185,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "name": "b_r_wrist"
+    },
+    {
+      "name": "b_r_forearm_stub"
+    },
+    {
+      "children": [
+        148,
+        155
+      ],
+      "rotation": [
+        0.03068309,
+        -0.0188555885,
+        0.0432814434,
+        0.9984136
+      ],
+      "translation": [
+        -0.09599624,
+        -0.00731645431,
+        0.02355068
+      ],
+      "name": "b_r_index1"
+    },
+    {
+      "children": [
+        149,
+        154
+      ],
+      "rotation": [
+        -0.02585241,
+        -0.00711605931,
+        0.00329294242,
+        0.999635041
+      ],
+      "translation": [
+        -0.0379273,
+        3.330669E-18,
+        1.3322676E-17
+      ],
+      "name": "b_r_index2"
+    },
+    {
+      "children": [
+        150,
+        151,
+        152,
+        153
+      ],
+      "rotation": [
+        -0.0160560012,
+        -0.02714872,
+        -0.0720339939,
+        0.99690336
+      ],
+      "translation": [
+        -0.024303643,
+        -5.2735593E-18,
+        -8.881784E-18
+      ],
+      "name": "b_r_index3"
+    },
+    {
+      "rotation": [
+        5.20417043E-18,
+        -1.38777878E-17,
+        1.79977561E-17,
+        1.0
+      ],
+      "translation": [
+        -0.0115830358,
+        6.661338E-18,
+        0.0
+      ],
+      "name": "b_r_index_null"
+    },
+    {
+      "translation": [
+        -0.015230434,
+        -0.00569925644,
+        -8.346747E-05
+      ],
+      "name": "r_index_finger_pad_marker"
+    },
+    {
+      "translation": [
+        -0.0223633666,
+        0.00102507079,
+        -0.0002956079
+      ],
+      "name": "r_index_finger_tip_marker"
+    },
+    {
+      "translation": [
+        -0.0154044479,
+        0.006164825,
+        -0.0003091432
+      ],
+      "name": "r_index_fingernail_marker"
+    },
+    {
+      "rotation": [
+        1.79431066E-16,
+        -0.717565954,
+        0.023630999,
+        0.6960895
+      ],
+      "translation": [
+        -0.024303643,
+        -1.110223E-18,
+        -4.440892E-18
+      ],
+      "name": "r_index_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        2.08843258E-15,
+        -0.7105201,
+        0.03675238,
+        0.70271647
+      ],
+      "translation": [
+        -0.0379273,
+        -2.220446E-18,
+        4.440892E-18
+      ],
+      "name": "r_index_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        157,
+        164,
+        165
+      ],
+      "rotation": [
+        -0.009066327,
+        -0.05146559,
+        0.051835753,
+        0.997287452
+      ],
+      "translation": [
+        -0.0956466049,
+        -0.00254315441,
+        0.00172590546
+      ],
+      "name": "b_r_middle1"
+    },
+    {
+      "children": [
+        158,
+        163
+      ],
+      "rotation": [
+        -0.0112282354,
+        -0.00437887432,
+        -0.00197826745,
+        0.999925435
+      ],
+      "translation": [
+        -0.04292699,
+        -4.440892E-18,
+        4.440892E-18
+      ],
+      "name": "b_r_middle2"
+    },
+    {
+      "children": [
+        159,
+        160,
+        161,
+        162
+      ],
+      "rotation": [
+        -0.0343195423,
+        -0.00461183535,
+        -0.09300701,
+        0.9950631
+      ],
+      "translation": [
+        -0.0275495835,
+        1.110223E-18,
+        8.881784E-18
+      ],
+      "name": "b_r_middle3"
+    },
+    {
+      "rotation": [
+        2.08166817E-17,
+        1.38777878E-17,
+        1.73472348E-17,
+        1.0
+      ],
+      "translation": [
+        -0.0122034745,
+        6.661338E-18,
+        0.0
+      ],
+      "name": "b_r_middle_null"
+    },
+    {
+      "translation": [
+        -0.01761396,
+        -0.00628725346,
+        -7.37521041E-05
+      ],
+      "name": "r_middle_finger_pad_marker"
+    },
+    {
+      "translation": [
+        -0.02496492,
+        0.00113729911,
+        -0.000308652758
+      ],
+      "name": "r_middle_finger_tip_marker"
+    },
+    {
+      "translation": [
+        -0.017000813,
+        0.006589214,
+        -0.000144214267
+      ],
+      "name": "r_middle_fingernail_marker"
+    },
+    {
+      "rotation": [
+        -1.03328696E-16,
+        -0.738151252,
+        0.0645921752,
+        0.671535969
+      ],
+      "translation": [
+        -0.0275495835,
+        0.0,
+        8.881784E-18
+      ],
+      "name": "r_middle_dip_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.0006809305,
+        0.0110098487,
+        -0.00303074229
+      ],
+      "name": "r_middle_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -3.699927E-16,
+        -0.7107332,
+        0.0159823243,
+        0.703280151
+      ],
+      "translation": [
+        -0.04292699,
+        -2.220446E-18,
+        -2.220446E-18
+      ],
+      "name": "r_middle_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        167
+      ],
+      "rotation": [
+        -0.207035989,
+        -0.140342847,
+        0.0183118,
+        0.968041658
+      ],
+      "translation": [
+        -0.0340735577,
+        -0.009419835,
+        -0.0229985733
+      ],
+      "name": "b_r_pinky0"
+    },
+    {
+      "children": [
+        168,
+        175
+      ],
+      "rotation": [
+        0.09111303,
+        0.004071365,
+        0.0281292237,
+        0.9954349
+      ],
+      "translation": [
+        -0.04565054,
+        -9.982332E-07,
+        2.19402546E-06
+      ],
+      "name": "b_r_pinky1"
+    },
+    {
+      "children": [
+        169,
+        174
+      ],
+      "rotation": [
+        -0.0376166478,
+        -0.0429377034,
+        -0.0132860476,
+        0.998280942
+      ],
+      "translation": [
+        -0.030720409,
+        1.110223E-18,
+        -3.77475832E-17
+      ],
+      "name": "b_r_pinky2"
+    },
+    {
+      "children": [
+        170,
+        171,
+        172,
+        173
+      ],
+      "rotation": [
+        0.0006447509,
+        0.0491706543,
+        -0.024018826,
+        0.99850136
+      ],
+      "translation": [
+        -0.0203113835,
+        -6.661338E-18,
+        1.7763568E-17
+      ],
+      "name": "b_r_pinky3"
+    },
+    {
+      "rotation": [
+        -2.77555756E-17,
+        -1.38777878E-16,
+        -6.938894E-18,
+        1.0
+      ],
+      "translation": [
+        -0.0119087752,
+        -1.6653345E-18,
+        -4.440892E-18
+      ],
+      "name": "b_r_pinky_null"
+    },
+    {
+      "translation": [
+        -0.0171081964,
+        -0.005134742,
+        -0.0009990304
+      ],
+      "name": "r_pinky_finger_pad_marker"
+    },
+    {
+      "translation": [
+        -0.0219223853,
+        0.00121608528,
+        0.000246481126
+      ],
+      "name": "r_pinky_finger_tip_marker"
+    },
+    {
+      "translation": [
+        -0.015289234,
+        0.00562854437,
+        0.0005408356
+      ],
+      "name": "r_pinky_fingernail_marker"
+    },
+    {
+      "rotation": [
+        5.82848665E-18,
+        -0.6882537,
+        -0.00100320566,
+        0.72546947
+      ],
+      "translation": [
+        -0.0203113835,
+        -2.220446E-18,
+        -3.330669E-18
+      ],
+      "name": "r_pinky_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        1.31471928E-16,
+        -0.7492193,
+        0.0585215,
+        0.6597315
+      ],
+      "translation": [
+        -0.030720409,
+        3.330669E-18,
+        6.661338E-18
+      ],
+      "name": "r_pinky_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        177,
+        184
+      ],
+      "rotation": [
+        -0.0531593673,
+        -0.12310341,
+        0.0498134941,
+        0.9897163
+      ],
+      "translation": [
+        -0.08869379,
+        -0.006529307,
+        -0.0174652413
+      ],
+      "name": "b_r_ring1"
+    },
+    {
+      "children": [
+        178,
+        183
+      ],
+      "rotation": [
+        -0.0336325243,
+        -0.00278983847,
+        0.005676023,
+        0.999414265
+      ],
+      "translation": [
+        -0.0389961,
+        -8.881784E-18,
+        8.881784E-18
+      ],
+      "name": "b_r_ring2"
+    },
+    {
+      "children": [
+        179,
+        180,
+        181,
+        182
+      ],
+      "rotation": [
+        -0.00347745651,
+        0.0291794557,
+        -0.0250285417,
+        0.999254763
+      ],
+      "translation": [
+        -0.0265733972,
+        4.440892E-18,
+        -4.440892E-18
+      ],
+      "name": "b_r_ring3"
+    },
+    {
+      "rotation": [
+        4.16333634E-17,
+        5.551115E-17,
+        -3.469447E-17,
+        1.0
+      ],
+      "translation": [
+        -0.01193941,
+        -1.110223E-18,
+        -6.661338E-18
+      ],
+      "name": "b_r_ring_null"
+    },
+    {
+      "translation": [
+        -0.0181253441,
+        -0.005780465,
+        -0.0003378707
+      ],
+      "name": "r_ring_finger_pad_marker"
+    },
+    {
+      "translation": [
+        -0.0243261289,
+        0.00160817127,
+        -0.0002579043
+      ],
+      "name": "r_ring_finger_tip_marker"
+    },
+    {
+      "translation": [
+        -0.0161405038,
+        0.00653572055,
+        0.0003754784
+      ],
+      "name": "r_ring_fingernail_marker"
+    },
+    {
+      "rotation": [
+        1.605726E-15,
+        -0.713260233,
+        0.006631614,
+        0.700867951
+      ],
+      "translation": [
+        -0.0265733972,
+        4.440892E-18,
+        8.881784E-18
+      ],
+      "name": "r_ring_dip_fe_axis_marker"
+    },
+    {
+      "rotation": [
+        2.38911043E-16,
+        -0.715411842,
+        0.0480023772,
+        0.6970521
+      ],
+      "translation": [
+        -0.0389961,
+        -4.440892E-18,
+        -1.110223E-18
+      ],
+      "name": "r_ring_pip_fe_axis_marker"
+    },
+    {
+      "children": [
+        186
+      ],
+      "rotation": [
+        0.375386924,
+        0.424584061,
+        -0.007778856,
+        0.8238644
+      ],
+      "translation": [
+        -0.0200693011,
+        -0.0115540987,
+        0.0104965195
+      ],
+      "name": "b_r_thumb0"
+    },
+    {
+      "children": [
+        187,
+        194,
+        195,
+        196
+      ],
+      "rotation": [
+        0.260230243,
+        0.02433092,
+        0.125678018,
+        0.957023144
+      ],
+      "translation": [
+        -0.024852559,
+        4.440892E-18,
+        -1.16573414E-17
+      ],
+      "name": "b_r_thumb1"
+    },
+    {
+      "children": [
+        188,
+        193
+      ],
+      "rotation": [
+        -0.08270373,
+        -0.0769617,
+        -0.08406223,
+        0.990035653
+      ],
+      "translation": [
+        -0.03251291,
+        -4.440892E-18,
+        3.21964668E-17
+      ],
+      "name": "b_r_thumb2"
+    },
+    {
+      "children": [
+        189,
+        190,
+        191,
+        192
+      ],
+      "rotation": [
+        0.0835058838,
+        0.06501573,
+        -0.0582740754,
+        0.9926751
+      ],
+      "translation": [
+        -0.03379309,
+        1.3322676E-17,
+        -1.66533444E-17
+      ],
+      "name": "b_r_thumb3"
+    },
+    {
+      "rotation": [
+        -1.38777878E-17,
+        1.83880688E-16,
+        2.49800181E-16,
+        1.0
+      ],
+      "translation": [
+        -0.0148633681,
+        0.0,
+        8.881784E-18
+      ],
+      "name": "b_r_thumb_null"
+    },
+    {
+      "translation": [
+        -0.01354,
+        -0.00952,
+        -0.00024
+      ],
+      "name": "r_thumb_finger_pad_marker"
+    },
+    {
+      "translation": [
+        -0.0245907661,
+        0.0010269715,
+        -0.0006703722
+      ],
+      "name": "r_thumb_finger_tip_marker"
+    },
+    {
+      "translation": [
+        -0.0152082881,
+        0.00574790267,
+        0.000190242965
+      ],
+      "name": "r_thumb_fingernail_marker"
+    },
+    {
+      "rotation": [
+        -1.15651086E-16,
+        -0.684581935,
+        -0.113900147,
+        0.7199822
+      ],
+      "translation": [
+        -0.03379309,
+        2.55351284E-17,
+        -2.6645352E-17
+      ],
+      "name": "r_thumb_ip_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.00929482,
+        0.0120759131,
+        -0.00157798734
+      ],
+      "name": "r_thumb_knuckle_marker"
+    },
+    {
+      "rotation": [
+        3.76856976E-16,
+        -0.7218523,
+        0.12169107,
+        0.6812639
+      ],
+      "translation": [
+        -0.03251291,
+        -5.55111479E-18,
+        1.7763568E-17
+      ],
+      "name": "r_thumb_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        0.0028762673,
+        -0.0239473656,
+        0.0147180269
+      ],
+      "name": "r_thumb_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        -0.09611815,
+        0.005218656,
+        0.021928234
+      ],
+      "name": "r_index_knuckle_marker"
+    },
+    {
+      "rotation": [
+        1.5147017E-17,
+        -0.04358452,
+        0.725202739,
+        0.687154651
+      ],
+      "translation": [
+        -0.09599624,
+        -0.00731645431,
+        0.02355068
+      ],
+      "name": "r_index_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        -4.670291E-17,
+        -0.707193434,
+        -0.04265578,
+        0.7057322
+      ],
+      "translation": [
+        -0.09599624,
+        -0.00731645431,
+        0.02355068
+      ],
+      "name": "r_index_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.0311257262,
+        0.00263202982,
+        0.02514459
+      ],
+      "name": "r_index_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        -0.0238817427,
+        -0.0334958434,
+        0.0121148722
+      ],
+      "name": "r_index_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        -0.100161538,
+        -0.0238383,
+        0.0242547058
+      ],
+      "name": "r_index_palm_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -5.01631275E-18,
+        0.0127513781,
+        0.7221367,
+        0.691632867
+      ],
+      "translation": [
+        -0.0956466049,
+        -0.00254315441,
+        0.00172590546
+      ],
+      "name": "r_middle_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        4.96660469E-16,
+        -0.7409508,
+        0.00991445,
+        0.6714862
+      ],
+      "translation": [
+        -0.0956466049,
+        -0.00254315441,
+        0.00172590546
+      ],
+      "name": "r_middle_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.0322586969,
+        0.01390163,
+        0.000857234234
+      ],
+      "name": "r_middle_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        -0.0238817427,
+        -0.0334958434,
+        0.0121148722
+      ],
+      "name": "r_middle_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        -0.0987255,
+        -0.020649666,
+        0.0006196165
+      ],
+      "name": "r_middle_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        -0.08176033,
+        -0.0205398444,
+        0.004241872
+      ],
+      "name": "r_palm_center_marker"
+    },
+    {
+      "translation": [
+        -0.07580273,
+        -0.004132048,
+        -0.03734504
+      ],
+      "name": "r_pinky_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -3.01168E-17,
+        0.175824925,
+        0.700949669,
+        0.691198349
+      ],
+      "translation": [
+        -0.07789584,
+        -0.0136911822,
+        -0.0350540653
+      ],
+      "name": "r_pinky_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        2.365652E-17,
+        -0.788309634,
+        0.185539916,
+        0.5866369
+      ],
+      "translation": [
+        -0.07789584,
+        -0.0136911822,
+        -0.0350540653
+      ],
+      "name": "r_pinky_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.030887451,
+        0.0105694793,
+        -0.0153133143
+      ],
+      "name": "r_pinky_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        -0.0245591179,
+        -0.0286783483,
+        -0.018615067
+      ],
+      "name": "r_pinky_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        -0.0767098144,
+        -0.02712936,
+        -0.0380266942
+      ],
+      "name": "r_pinky_palm_knuckle_marker"
+    },
+    {
+      "translation": [
+        -0.08772871,
+        0.00342693832,
+        -0.0206375718
+      ],
+      "name": "r_ring_knuckle_marker"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0771651641,
+        0.7174004,
+        0.6923744
+      ],
+      "translation": [
+        -0.08869379,
+        -0.006529307,
+        -0.0174652413
+      ],
+      "name": "r_ring_mcp_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        2.815203E-17,
+        -0.7838948,
+        0.0762138,
+        0.6161985
+      ],
+      "translation": [
+        -0.08869379,
+        -0.006529307,
+        -0.0174652413
+      ],
+      "name": "r_ring_mcp_fe_axis_marker"
+    },
+    {
+      "translation": [
+        -0.031793382,
+        0.0127200754,
+        -0.009874243
+      ],
+      "name": "r_ring_palm_collider_base0_marker"
+    },
+    {
+      "translation": [
+        -0.0250673071,
+        -0.0295459479,
+        -0.0104015088
+      ],
+      "name": "r_ring_palm_collider_base1_marker"
+    },
+    {
+      "translation": [
+        -0.090111874,
+        -0.0234416239,
+        -0.0188233014
+      ],
+      "name": "r_ring_palm_knuckle_marker"
+    },
+    {
+      "rotation": [
+        -9.947095E-17,
+        -0.8370959,
+        0.2633566,
+        -0.479493231
+      ],
+      "translation": [
+        -0.03595843,
+        -0.0191577189,
+        0.0280284975
+      ],
+      "name": "r_thumb_cmc_aa_axis_marker"
+    },
+    {
+      "rotation": [
+        1.0748633E-17,
+        -0.04351636,
+        -0.245809257,
+        0.968340933
+      ],
+      "translation": [
+        -0.0200693011,
+        -0.0115540987,
+        0.0104965195
+      ],
+      "name": "r_thumb_cmc_fe_axis_marker"
+    },
+    {
+      "children": [
+        224
+      ],
+      "name": "r_handMeshNode"
+    },
+    {
+      "mesh": 3,
+      "name": "r_handMeshNode"
+    },
+    {
+      "children": [
+        226,
+        227,
+        229
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "name": "[BuildingBlock] Right Ray"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.03835082
+      ],
+      "name": "Selector"
+    },
+    {
+      "children": [
+        228
+      ],
+      "name": "Model"
+    },
+    {
+      "name": "PointerPose"
+    },
+    {
+      "children": [
+        230,
+        233
+      ],
+      "name": "Visuals"
+    },
+    {
+      "children": [
+        231
+      ],
+      "name": "RaycasterPinchVisual"
+    },
+    {
+      "children": [
+        232
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "mesh": 4,
+      "scale": [
+        3.333333,
+        3.333333,
+        3.333333
+      ],
+      "name": "OculusHandPinchArrowBlended"
+    },
+    {
+      "children": [
+        234
+      ],
+      "name": "RaycasterCursorVisual"
+    },
+    {
+      "children": [
+        235,
+        236
+      ],
+      "name": "CursorObject"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.00100004673
+      ],
+      "name": "OculusCursor"
+    },
+    {
+      "scale": [
+        0.016,
+        0.016,
+        1.0
+      ],
+      "name": "SelectionCircle"
+    },
+    {
+      "children": [
+        238,
+        239
+      ],
+      "name": "[BuildingBlock] Right Poke"
+    },
+    {
+      "name": "HandIndexFingertip"
+    },
+    {
+      "children": [
+        240,
+        241
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "name": "Visuals"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        -0.1
+      ],
+      "name": "HandPokeLimiter"
+    },
+    {
+      "name": "HandPokeOvershootGlow"
+    },
+    {
+      "name": "[BuildingBlock] Passthrough"
+    },
+    {
+      "children": [
+        244,
+        245,
+        247,
+        249,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261,
+        263,
+        265,
+        269
+      ],
+      "name": "Gesture"
+    },
+    {
+      "name": "PoseRecognizedVisuals"
+    },
+    {
+      "children": [
+        246
+      ],
+      "name": "Hand Hygiene Complete!"
+    },
+    {
+      "name": "PoseDetectionThumbsUpAudio"
+    },
+    {
+      "children": [
+        248
+      ],
+      "name": "ThumbsUpRight"
+    },
+    {
+      "name": "PoseDetectionThumbsUpAudio"
+    },
+    {
+      "children": [
+        250
+      ],
+      "name": "ThumbsDownLeft"
+    },
+    {
+      "name": "PoseDetectionThumbsDownAudio"
+    },
+    {
+      "children": [
+        252
+      ],
+      "name": "ThumbsDownRight"
+    },
+    {
+      "name": "PoseDetectionThumbsDownAudio"
+    },
+    {
+      "children": [
+        254
+      ],
+      "name": "RockPoseLeft"
+    },
+    {
+      "name": "PoseDetectionRockAudio"
+    },
+    {
+      "children": [
+        256
+      ],
+      "name": "RockPoseRight"
+    },
+    {
+      "name": "PoseDetectionRockAudio"
+    },
+    {
+      "children": [
+        258
+      ],
+      "name": "PaperLeft"
+    },
+    {
+      "name": "PoseDetectionPaperAudio"
+    },
+    {
+      "children": [
+        260
+      ],
+      "name": "PaperRight"
+    },
+    {
+      "name": "PoseDetectionPaperAudio"
+    },
+    {
+      "children": [
+        262
+      ],
+      "name": "ScissorsLeft"
+    },
+    {
+      "name": "PoseDetectionScissorsAudio"
+    },
+    {
+      "children": [
+        264
+      ],
+      "name": "ScissorsRight"
+    },
+    {
+      "name": "PoseDetectionScissorsAudio"
+    },
+    {
+      "children": [
+        266,
+        268
+      ],
+      "name": "StopPoseLeft"
+    },
+    {
+      "children": [
+        267
+      ],
+      "scale": [
+        2.0,
+        0.568131745,
+        2.0
+      ],
+      "name": "HandNotTooHighOrLow"
+    },
+    {
+      "name": "ExitCollider"
+    },
+    {
+      "name": "PoseDetectionStopAudio"
+    },
+    {
+      "children": [
+        270,
+        272
+      ],
+      "name": "StopPoseRight"
+    },
+    {
+      "children": [
+        271
+      ],
+      "scale": [
+        2.0,
+        0.568131745,
+        2.0
+      ],
+      "name": "HandNotTooHighOrLow"
+    },
+    {
+      "name": "ExitCollider"
+    },
+    {
+      "name": "PoseDetectionStopAudio"
+    },
+    {
+      "children": [
+        274
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "name": "[BuildingBlock] Ray Interaction"
+    },
+    {
+      "name": "Collider"
+    },
+    {
+      "children": [
+        276
+      ],
+      "translation": [
+        0.0,
+        1.2,
+        0.0
+      ],
+      "name": "HomeScreen (1)"
+    },
+    {
+      "children": [
+        277,
+        278,
+        298
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "name": "Canvas (Alpha Blended)"
+    },
+    {
+      "name": "Mesh"
+    },
+    {
+      "children": [
+        279,
+        282,
+        283,
+        285,
+        286,
+        288,
+        293,
+        297
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        280,
+        281
+      ],
+      "name": "HeroScreen"
+    },
+    {
+      "name": "Background"
+    },
+    {
+      "name": "Panel"
+    },
+    {
+      "translation": [
+        0.0,
+        14.0,
+        0.0
+      ],
+      "name": "Scrim"
+    },
+    {
+      "children": [
+        284
+      ],
+      "translation": [
+        0.0,
+        171.0,
+        0.0
+      ],
+      "name": "Title"
+    },
+    {
+      "translation": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "name": "Header"
+    },
+    {
+      "translation": [
+        0.0,
+        -7.0,
+        0.0
+      ],
+      "name": "Image"
+    },
+    {
+      "children": [
+        287
+      ],
+      "translation": [
+        0.0,
+        -150.0,
+        0.0
+      ],
+      "name": "Content"
+    },
+    {
+      "translation": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "name": "Content Text"
+    },
+    {
+      "children": [
+        289
+      ],
+      "translation": [
+        0.0,
+        -7.000028,
+        0.0
+      ],
+      "name": "Button"
+    },
+    {
+      "children": [
+        290,
+        291,
+        292
+      ],
+      "translation": [
+        373.5,
+        27.5000153,
+        0.0
+      ],
+      "name": "Toggle"
+    },
+    {
+      "translation": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "Border"
+    },
+    {
+      "translation": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "SelectionBorder"
+    },
+    {
+      "translation": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "Image"
+    },
+    {
+      "children": [
+        294,
+        295,
+        296
+      ],
+      "translation": [
+        -373.5,
+        20.5,
+        0.0
+      ],
+      "name": "Toggle (1)"
+    },
+    {
+      "translation": [
+        25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "Border"
+    },
+    {
+      "translation": [
+        25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "SelectionBorder"
+    },
+    {
+      "translation": [
+        25.0,
+        -25.0,
+        0.0
+      ],
+      "name": "Image"
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        0.0,
+        71999.99,
+        0.0
+      ],
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        299,
+        300,
+        301
+      ],
+      "name": "Audio"
+    },
+    {
+      "name": "BasicRayHoverAudio"
+    },
+    {
+      "name": "BasicRayPressAudio"
+    },
+    {
+      "name": "BasicRayReleaseAudio"
+    },
+    {
+      "name": "PointableCanvasModule"
+    },
+    {
+      "children": [
+        304,
+        313,
+        322,
+        331
+      ],
+      "name": "SwipeGestures"
+    },
+    {
+      "children": [
+        305,
+        306,
+        307
+      ],
+      "name": "SwipeGestureLeft"
+    },
+    {
+      "name": "ProviderRefs"
+    },
+    {
+      "name": "HandPointedForward"
+    },
+    {
+      "children": [
+        308,
+        311,
+        312
+      ],
+      "name": "HandSwiping"
+    },
+    {
+      "children": [
+        309,
+        310
+      ],
+      "name": "HandSideways"
+    },
+    {
+      "name": "WristUpWorld"
+    },
+    {
+      "name": "WristUpHead"
+    },
+    {
+      "name": "HandMoving"
+    },
+    {
+      "name": "WristRotating"
+    },
+    {
+      "children": [
+        314,
+        315,
+        316
+      ],
+      "name": "SwipeGestureRight"
+    },
+    {
+      "name": "ProviderRefs"
+    },
+    {
+      "name": "HandPointedForward"
+    },
+    {
+      "children": [
+        317,
+        320,
+        321
+      ],
+      "name": "HandSwiping"
+    },
+    {
+      "children": [
+        318,
+        319
+      ],
+      "name": "HandSideways"
+    },
+    {
+      "name": "WristUpWorld"
+    },
+    {
+      "name": "WristUpHead"
+    },
+    {
+      "name": "HandMoving"
+    },
+    {
+      "name": "WristRotating"
+    },
+    {
+      "children": [
+        323,
+        324,
+        325
+      ],
+      "name": "SwipeGestureLeft"
+    },
+    {
+      "name": "ProviderRefs"
+    },
+    {
+      "name": "HandPointedForward"
+    },
+    {
+      "children": [
+        326,
+        329,
+        330
+      ],
+      "name": "HandSwiping"
+    },
+    {
+      "children": [
+        327,
+        328
+      ],
+      "name": "HandSideways"
+    },
+    {
+      "name": "WristUpWorld"
+    },
+    {
+      "name": "WristUpHead"
+    },
+    {
+      "name": "HandMoving"
+    },
+    {
+      "name": "WristRotating"
+    },
+    {
+      "children": [
+        332,
+        333,
+        334
+      ],
+      "name": "SwipeGestureRight"
+    },
+    {
+      "name": "ProviderRefs"
+    },
+    {
+      "name": "HandPointedForward"
+    },
+    {
+      "children": [
+        335,
+        338,
+        339
+      ],
+      "name": "HandSwiping"
+    },
+    {
+      "children": [
+        336,
+        337
+      ],
+      "name": "HandSideways"
+    },
+    {
+      "name": "WristUpWorld"
+    },
+    {
+      "name": "WristUpHead"
+    },
+    {
+      "name": "HandMoving"
+    },
+    {
+      "name": "WristRotating"
+    },
+    {
+      "children": [
+        341
+      ],
+      "name": "info canvas"
+    },
+    {
+      "children": [
+        342,
+        364,
+        368,
+        374
+      ],
+      "translation": [
+        -0.381,
+        0.771,
+        0.437
+      ],
+      "name": "PictureFrame"
+    },
+    {
+      "children": [
+        343,
+        345,
+        362
+      ],
+      "rotation": [
+        -0.5588757,
+        -0.184269145,
+        -0.129026622,
+        0.798157334
+      ],
+      "translation": [
+        -0.095,
+        0.14199996,
+        0.213999987
+      ],
+      "name": "Close-PictureFrame"
+    },
+    {
+      "children": [
+        344
+      ],
+      "mesh": 7,
+      "scale": [
+        0.78,
+        0.78,
+        0.56
+      ],
+      "name": "Frame"
+    },
+    {
+      "mesh": 8,
+      "rotation": [
+        0.707106769,
+        0.0,
+        -7.450579E-09,
+        0.707106769
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        0.0,
+        0.012,
+        0.0
+      ],
+      "name": "Backing"
+    },
+    {
+      "children": [
+        346,
+        361
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        -7.45058149E-09,
+        0.707106769
+      ],
+      "scale": [
+        0.0006,
+        0.0006,
+        0.0006
+      ],
+      "translation": [
+        0.0,
+        0.01,
+        0.0
+      ],
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        347
+      ],
+      "translation": [
+        -3.05175781E-05,
+        0.0,
+        9.62366539E-05
+      ],
+      "name": "Carousel"
+    },
+    {
+      "children": [
+        348
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        4.93241678E-05
+      ],
+      "name": "Viewport"
+    },
+    {
+      "children": [
+        349,
+        352,
+        355,
+        358
+      ],
+      "translation": [
+        327.499969,
+        0.0,
+        2.793967E-05
+      ],
+      "name": "Content"
+    },
+    {
+      "children": [
+        350,
+        351
+      ],
+      "translation": [
+        -327.5,
+        0.0,
+        0.0
+      ],
+      "name": "Picture"
+    },
+    {
+      "translation": [
+        -6.10351563E-05,
+        0.0,
+        5.58793363E-05
+      ],
+      "name": "Image"
+    },
+    {
+      "translation": [
+        207.5,
+        191.5,
+        0.0
+      ],
+      "name": "Step1"
+    },
+    {
+      "children": [
+        353,
+        354
+      ],
+      "translation": [
+        -982.5,
+        0.0,
+        0.0
+      ],
+      "name": "Picture (1)"
+    },
+    {
+      "translation": [
+        -6.10351563E-05,
+        0.0,
+        5.58793363E-05
+      ],
+      "name": "Image"
+    },
+    {
+      "translation": [
+        207.5,
+        191.5,
+        0.0
+      ],
+      "name": "Step 2"
+    },
+    {
+      "children": [
+        356,
+        357
+      ],
+      "translation": [
+        -1637.5,
+        0.0,
+        0.0
+      ],
+      "name": "Picture (2)"
+    },
+    {
+      "translation": [
+        -6.10351563E-05,
+        0.0,
+        5.58793363E-05
+      ],
+      "name": "Image"
+    },
+    {
+      "translation": [
+        207.5,
+        191.5,
+        0.0
+      ],
+      "name": "Step 3"
+    },
+    {
+      "children": [
+        359,
+        360
+      ],
+      "translation": [
+        -2292.5,
+        0.0,
+        0.0
+      ],
+      "name": "Picture (3)"
+    },
+    {
+      "translation": [
+        -6.10351563E-05,
+        0.0,
+        5.58793363E-05
+      ],
+      "name": "Image"
+    },
+    {
+      "translation": [
+        207.5,
+        191.5,
+        0.0
+      ],
+      "name": "Step4"
+    },
+    {
+      "mesh": 9,
+      "translation": [
+        -6.129444E-05,
+        156666.672,
+        0.0254313126
+      ],
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        363
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "translation": [
+        0.0,
+        0.019,
+        0.0
+      ],
+      "name": "Hover"
+    },
+    {
+      "scale": [
+        0.12,
+        0.09,
+        1.0
+      ],
+      "name": "Background"
+    },
+    {
+      "children": [
+        365,
+        366,
+        367
+      ],
+      "name": "CheckHover"
+    },
+    {
+      "name": "AnyHovering"
+    },
+    {
+      "translation": [
+        -0.0270308554,
+        0.245999932,
+        0.04699999
+      ],
+      "name": "Entry"
+    },
+    {
+      "translation": [
+        -0.0270308554,
+        0.245999932,
+        0.04699999
+      ],
+      "name": "Exit"
+    },
+    {
+      "children": [
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "name": "Select"
+    },
+    {
+      "name": "LeftHand"
+    },
+    {
+      "name": "RightHand"
+    },
+    {
+      "name": "AnySelectGesture"
+    },
+    {
+      "name": "LeftControllerHand"
+    },
+    {
+      "name": "RightControllerHand"
+    },
+    {
+      "children": [
+        375
+      ],
+      "name": "Audio"
+    },
+    {
+      "name": "BasicGesturesSwipeAudio"
+    },
+    {
+      "mesh": 10,
+      "rotation": [
+        -0.6695436,
+        -0.227401376,
+        0.227401376,
+        0.6695436
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "translation": [
+        0.361,
+        1.051,
+        0.952
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 11,
+      "rotation": [
+        -0.6695436,
+        -0.227401376,
+        0.227401376,
+        0.6695436
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "translation": [
+        0.115,
+        1.051,
+        0.952
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "children": [
+        379
+      ],
+      "rotation": [
+        -0.6695436,
+        -0.227401376,
+        0.227401376,
+        0.6695436
+      ],
+      "scale": [
+        0.07000002,
+        0.07000003,
+        0.07000004
+      ],
+      "translation": [
+        -0.248,
+        0.842707336,
+        1.291
+      ],
+      "name": "GameObject"
+    },
+    {
+      "scale": [
+        0.0315914936,
+        0.0315914936,
+        0.0312256627
+      ],
+      "translation": [
+        0.48,
+        4.14,
+        2.9
+      ],
+      "name": "Particle System"
+    },
+    {
+      "children": [
+        381,
+        383
+      ],
+      "translation": [
+        0.267,
+        0.928,
+        0.758
+      ],
+      "name": "[BuildingBlock] Poke Interaction"
+    },
+    {
+      "children": [
+        382
+      ],
+      "name": "Model"
+    },
+    {
+      "scale": [
+        0.1,
+        0.1,
+        0.001
+      ],
+      "name": "Surface"
+    },
+    {
+      "children": [
+        384
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.018
+      ],
+      "name": "Visuals"
+    },
+    {
+      "mesh": 12,
+      "scale": [
+        0.1,
+        0.1,
+        1.0
+      ],
+      "name": "ButtonVisual"
+    },
+    {
+      "name": "[BuildingBlock] Spatial Anchor Core"
+    },
+    {
+      "name": "[BuildingBlock] Controller Buttons Mapper"
+    },
+    {
+      "name": "[BuildingBlock] Sample Spatial Anchor Controller"
+    },
+    {
+      "name": "Cognitive3D_Manager"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        242,
+        243,
+        273,
+        275,
+        302,
+        303,
+        340,
+        376,
+        377,
+        378,
+        380,
+        385,
+        386,
+        387,
+        388
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "371857150CanvasMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "1110705868MapFrame_AlbedoRoughnessMain"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "371857150CanvasMain"
+    }
+  ]
+}

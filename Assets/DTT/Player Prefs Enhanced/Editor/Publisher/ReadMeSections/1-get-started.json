@@ -1,0 +1,11 @@
+﻿{
+  "title": "Player Prefs Enhanced: get started quickly",
+  "text": "[To use your player prefs in code import the DTT.PlayerprefsEnhanced namespace, now you can use EhancedPrefs instead of Unity's PlayerPrefs. The player prefs you create will be encrypted, to make them more secure you should change the default password and IV values in the EncryptionAES script.][To make use of the player pref overview the 'API Compatibility Level' needs to be set to \".Net 4.x\". This setting can be found in Edit/Project Settings/Player.][To open the player pref overview go to Tools/Player Prefs Enhanced/Player Prefs Overview. In this window you can freely add, remove and eddit your player prefs.][Want to dive deeper? Take a look at our documentation:][l]",
+  "links": [
+    {
+      "text": "Open documentation",
+      "url": "Documentation.pdf",
+      "inline": false
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.cognitive3d.c3d-sdk": "https://github.com/CognitiveVR/cvr-sdk-unity.git",
     "com.meta.xr.sdk.all": "62.0.0",
     "com.meta.xr.sdk.interaction.ovr.samples": "62.0.0",
     "com.unity.collab-proxy": "2.3.1",
