@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using Oculus;
 using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
 
@@ -9,6 +10,8 @@ public class InbstructorGameManager : MonoBehaviour
 {
     public GameObject ContactBorneContaminant;
     public GameObject AirborneContaminant;
+    public GameObject LeftHand;
+    public GameObject RightHand;
 
     // Height offset from the spawner's position
     public float heightOffset = 1.0f;
@@ -17,17 +20,21 @@ public class InbstructorGameManager : MonoBehaviour
 
     private List<GameObject> meshContaminants;
     private List<GameObject> particleContaminants;
+    private Material leftHandMaterial;
+    private Material rightHandMaterial;
 
     void Start()
     {
         meshContaminants = new List<GameObject>();
         particleContaminants = new List<GameObject>();
+        leftHandMaterial = LeftHand.GetComponent<SkinnedMeshRenderer>().material;
+        rightHandMaterial = RightHand.GetComponent<SkinnedMeshRenderer>().material;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     public void InitializeSetupMode()
@@ -70,9 +77,14 @@ public class InbstructorGameManager : MonoBehaviour
                     grab.enabled = false;
                 }
                 contaminant.GetComponent<PanelHoverState>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<GrabInteractable>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<HandGrabInteractable>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<BoxCollider>().enabled = false;
+                GameObject panel = contaminant.transform.Find("PanelInteractable").gameObject;
+                panel.GetComponent<GrabInteractable>().enabled = false;
+                panel.GetComponent<HandGrabInteractable>().enabled = false;
+                panel.GetComponent<BoxCollider>().enabled = false;
+                if(panel.transform.Find("Cube").GetComponent<ContactCollisions>().isReadable == true)
+                {
+                    panel.transform.Find("Cube").GetComponent<PokeInteractable>().enabled = true;
+                }
                 contaminant.transform.Find("RotatorVerticalTop").gameObject.SetActive(false);
                 contaminant.transform.Find("RotatorVerticalBottom").gameObject.SetActive(false);
                 contaminant.transform.Find("RotatorHorizontalLeft").gameObject.SetActive(false);
@@ -102,9 +114,14 @@ public class InbstructorGameManager : MonoBehaviour
                     grab.enabled = false;
                 }
                 contaminant.GetComponent<PanelHoverState>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<GrabInteractable>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<HandGrabInteractable>().enabled = false;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<BoxCollider>().enabled = false;
+                GameObject panel = contaminant.transform.Find("PanelInteractable").gameObject;
+                panel.GetComponent<GrabInteractable>().enabled = false;
+                panel.GetComponent<HandGrabInteractable>().enabled = false;
+                panel.GetComponent<BoxCollider>().enabled = false;
+                //if (panel.transform.Find("Particle System").GetComponent<DropletCollisions>().isReadable == true)
+                //{
+                  //  panel.transform.Find("Particle System").GetComponent<PokeInteractable>().enabled = true;
+                //}
                 contaminant.transform.Find("RotatorVerticalTop").gameObject.SetActive(false);
                 contaminant.transform.Find("RotatorVerticalBottom").gameObject.SetActive(false);
                 contaminant.transform.Find("RotatorHorizontalLeft").gameObject.SetActive(false);
@@ -131,6 +148,9 @@ public class InbstructorGameManager : MonoBehaviour
         //List<GrabInteractable> meshInteractables = new List<GrabInteractable>();
         //List<GrabInteractable> particleInteractables = new List<GrabInteractable>();
 
+        LeftHand.GetComponent<SkinnedMeshRenderer>().material = leftHandMaterial;
+        RightHand.GetComponent<SkinnedMeshRenderer>().material = rightHandMaterial;
+
         foreach (GameObject contaminant in meshContaminants)
         {
             if (contaminant != null)
@@ -141,9 +161,16 @@ public class InbstructorGameManager : MonoBehaviour
                     grab.enabled = true;
                 }
                 contaminant.GetComponent<PanelHoverState>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<GrabInteractable>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<HandGrabInteractable>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<BoxCollider>().enabled = true;
+                GameObject panel = contaminant.transform.Find("PanelInteractable").gameObject;
+                panel.GetComponent<GrabInteractable>().enabled = true;
+                panel.GetComponent<HandGrabInteractable>().enabled = true;
+                panel.GetComponent<BoxCollider>().enabled = true;
+                panel.transform.Find("Cube").GetComponent<PokeInteractable>().enabled = false;
+                GameObject readableInfo = panel.transform.Find("Cube").GetComponent<ContactCollisions>().spawnedObject;
+                if(readableInfo != null)
+                {
+                    Destroy(readableInfo);
+                }
                 contaminant.transform.Find("RotatorVerticalTop").gameObject.SetActive(true);
                 contaminant.transform.Find("RotatorVerticalBottom").gameObject.SetActive(true);
                 contaminant.transform.Find("RotatorHorizontalLeft").gameObject.SetActive(true);
@@ -173,9 +200,11 @@ public class InbstructorGameManager : MonoBehaviour
                     grab.enabled = true;
                 }
                 contaminant.GetComponent<PanelHoverState>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<GrabInteractable>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<HandGrabInteractable>().enabled = true;
-                contaminant.transform.Find("PanelInteractable").gameObject.GetComponent<BoxCollider>().enabled = true;
+                GameObject panel = contaminant.transform.Find("PanelInteractable").gameObject;
+                panel.GetComponent<GrabInteractable>().enabled = true;
+                panel.GetComponent<HandGrabInteractable>().enabled = true;
+                panel.GetComponent<BoxCollider>().enabled = true;
+                panel.transform.Find("Particle System").GetComponent<PokeInteractable>().enabled = false;
                 contaminant.transform.Find("RotatorVerticalTop").gameObject.SetActive(true);
                 contaminant.transform.Find("RotatorVerticalBottom").gameObject.SetActive(true);
                 contaminant.transform.Find("RotatorHorizontalLeft").gameObject.SetActive(true);

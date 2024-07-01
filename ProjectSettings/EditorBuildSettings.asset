@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewIntstructorScene.unity
     guid: 1d703f4ec07064b88a5e8bd3b02f309c
+  - enabled: 0
+    path: Assets/Scenes/NewNewInstructorScene.unity
+    guid: 7fb1d6b4dba624b2c8dd185e0fcc2350
+  - enabled: 0
+    path: Assets/Scenes/MoveableMenuNewNewInstructorScene.unity
+    guid: 759eff68116bf43ad8f06b822fe227f7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ebb6998f53caf489d8aa418239ad5f25,
       type: 2}

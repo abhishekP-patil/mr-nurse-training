@@ -7,6 +7,7 @@ public class ContactContaminationOptionsMenuSpawner : MonoBehaviour
     public GameObject ContactContaminationOptionsMenu;
     public float heightOffset = 0.3f;
     public GameObject contaminant;
+    public GameObject contaminantParent;
     public GameObject spawnedObject;
     public bool isMenu;
 
@@ -29,7 +30,27 @@ public class ContactContaminationOptionsMenuSpawner : MonoBehaviour
         {
             Vector3 spawnPosition = transform.position + new Vector3(0, heightOffset, 0);
             spawnedObject = Instantiate(ContactContaminationOptionsMenu, spawnPosition, Quaternion.identity);
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                Vector3 directionToPlayer = player.transform.position - transform.position;
+                directionToPlayer.y = 0; // Remove Y component to keep rotation only on Y axis
+
+                // Ensure directionToPlayer is not the zero vector before calculating the rotation
+                if (directionToPlayer != Vector3.zero)
+                {
+                    // Create a quaternion for rotation towards the player on the Y axis
+                    Quaternion toRotation = Quaternion.LookRotation(directionToPlayer, Vector3.up);
+
+                    toRotation *= Quaternion.Euler(0, 180, 0);
+
+                    // Apply the rotation to this GameObject
+                    spawnedObject.transform.rotation = toRotation;
+                }
+            }
             spawnedObject.GetComponent<ContactContaminantColorPicker>().contaminant = contaminant;
+            spawnedObject.GetComponent<ContactContaminantColorPicker>().contaminantParent = contaminantParent;
+            spawnedObject.GetComponent<ContactContaminantColorPicker>().SetupContaminantOptions(contaminant);
         }
         else
         {

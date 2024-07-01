@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 1022768233603006545}
   - component: {fileID: 5385210240452296850}
   - component: {fileID: 8941236034343163287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ScalerBottomRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 3394294543963511219}
   _rigidbody: {fileID: 4634613828700111256}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -1809,7 +1809,7 @@ GameObject:
   - component: {fileID: 7618168107530485686}
   - component: {fileID: 7167405634295173571}
   - component: {fileID: 651300656121336102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ScalerTopLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1947,7 +1947,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 3394294543963511219}
   _rigidbody: {fileID: 8179274944334058960}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -2741,7 +2741,7 @@ GameObject:
   - component: {fileID: 1297332478019810265}
   - component: {fileID: 5629576346160267863}
   - component: {fileID: 3936282255935826605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RotatorVerticalBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,7 +2881,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 3293842255075719903}
   _rigidbody: {fileID: 9218163056285567072}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -3145,7 +3145,7 @@ GameObject:
   - component: {fileID: 6658791441492650131}
   - component: {fileID: 828789969631682290}
   - component: {fileID: 1333105710881305630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PanelInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3198,7 +3198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 38171e1c1566e4779835104729dab6dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3354,10 +3354,11 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2651811397393498786, guid: fa11efb4693e44f4faae05e15afce166,
+          type: 3}
         m_TargetAssemblyTypeName: Oculus.Interaction.Interactable`2[[Oculus.Interaction.PokeInteractor,
           Oculus.Interaction
-        m_MethodName: Disable
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3370,10 +3371,11 @@ MonoBehaviour:
   _whenUnselect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2651811397393498786, guid: fa11efb4693e44f4faae05e15afce166,
+          type: 3}
         m_TargetAssemblyTypeName: Oculus.Interaction.Interactable`2[[Oculus.Interaction.PokeInteractor,
           Oculus.Interaction
-        m_MethodName: Enable
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3465,10 +3467,34 @@ MonoBehaviour:
   _interactableView: {fileID: 6658791441492650131}
   _whenHover:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6060113800809815587}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6060113800809815587}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
@@ -3545,12 +3571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8647f8c405eb46fa96c89566d614a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropletContaminationOptionsMenu: {fileID: 2651811397393498786, guid: a4ab27652284846fa98bb65409f4b0c8,
+  DropletContaminationOptionsMenu: {fileID: 2651811397393498786, guid: a79588c4f17b547189a44d36f9a10db6,
     type: 3}
   heightOffset: 0.3
   contaminant: {fileID: 3956873204188469243}
-  spawnedObject: {fileID: 2651811397393498786, guid: a4ab27652284846fa98bb65409f4b0c8,
-    type: 3}
+  contaminantParent: {fileID: 1986015473726697863}
+  spawnedObject: {fileID: 0}
   isMenu: 0
 --- !u!1 &1953331695706566087
 GameObject:
@@ -3604,7 +3630,7 @@ GameObject:
   - component: {fileID: 3978296080628056558}
   - component: {fileID: 6034767215162899705}
   - component: {fileID: 1991690434498240526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RotatorVerticalTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3744,7 +3770,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 5978020278829366705}
   _rigidbody: {fileID: 8179122325004393613}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -5262,7 +5288,7 @@ GameObject:
   - component: {fileID: 5617127663766585968}
   - component: {fileID: 8637074699463280332}
   - component: {fileID: 9062014127377752156}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ScalerBottomLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5400,7 +5426,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 3394294543963511219}
   _rigidbody: {fileID: 4805671203085446518}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -6469,6 +6495,8 @@ GameObject:
   - component: {fileID: 613724620051042064}
   - component: {fileID: 3100207398371846432}
   - component: {fileID: 3371020078144514912}
+  - component: {fileID: 1902266577316260804}
+  - component: {fileID: 6509146548370631659}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -6574,8 +6602,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 4
-      minScalar: 2
+      scalar: 2
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -7069,8 +7097,8 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.02
-      minScalar: 0.01
+      scalar: 0.025
+      minScalar: 0.015
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10135,9 +10163,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 4
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -10308,11 +10336,11 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 247
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -11346,6 +11374,171 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &1902266577316260804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956873204188469243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb54f559e8a4124a35cdc7f99cd07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isReadable: 0
+  isTouchable: 0
+  isReadableActive: 0
+  readableObject: {fileID: 8898206192750903848, guid: 522eca639160645ec81c5d7435069ab0,
+    type: 3}
+  spawnedObject: {fileID: 0}
+  heightOffset: 0.3
+--- !u!114 &6509146548370631659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956873204188469243}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317e663e2bb60ea408fe22b908b59295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 0}
+  _surfacePatch: {fileID: 1114919788218708923}
+  _enterHoverNormal: 0.03
+  _enterHoverTangent: 0
+  _exitHoverNormal: 0.05
+  _exitHoverTangent: 0
+  _cancelSelectNormal: 0.3
+  _cancelSelectTangent: 0.03
+  _minThresholds:
+    Enabled: 0
+    MinNormal: 0.01
+  _dragThresholds:
+    Enabled: 1
+    DragNormal: 0.01
+    DragTangent: 0.01
+    DragEaseCurve:
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _animationLength: 0.05
+  _positionPinning:
+    Enabled: 0
+    MaxPinDistance: 0.075
+    PinningEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ResyncCurve:
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _animationLength: 0.2
+  _recoilAssist:
+    Enabled: 0
+    UseDynamicDecay: 0
+    DynamicDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 50
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.9
+        value: 0.5
+        inSlope: -47
+        outSlope: -47
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseVelocityExpansion: 0
+    VelocityExpansionMinSpeed: 0.4
+    VelocityExpansionMaxSpeed: 1.4
+    VelocityExpansionDistance: 0.055
+    VelocityExpansionDecayRate: 0.125
+    ExitDistance: 0.02
+    ReEnterDistance: 0.02
+  _closeDistanceThreshold: 0.001
+  _tiebreakerScore: 0
 --- !u!1 &3987602215076574920
 GameObject:
   m_ObjectHideFlags: 0
@@ -13813,7 +14006,7 @@ GameObject:
   - component: {fileID: 5775128887583054267}
   - component: {fileID: 324674180864583120}
   - component: {fileID: 8753863890363651969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RotatorHorizontalRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13953,7 +14146,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 5978020278829366705}
   _rigidbody: {fileID: 6233604959379102381}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -15862,7 +16055,7 @@ GameObject:
   - component: {fileID: 5632626570977575084}
   - component: {fileID: 4333180766289938524}
   - component: {fileID: 8401934756642610170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RotatorHorizontalLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16002,7 +16195,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 5978020278829366705}
   _rigidbody: {fileID: 2132452651695686057}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
@@ -17376,7 +17569,7 @@ GameObject:
   - component: {fileID: 3449081829392883315}
   - component: {fileID: 1895071448425863341}
   - component: {fileID: 6393742369486404525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ScalerTopRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17514,7 +17707,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 3394294543963511219}
   _rigidbody: {fileID: 6061330223166799823}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
